@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+
+}
+
+body{
+    height: 710px;
+    background: #0697b1;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0ccc79;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+.itemForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.itemForm p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.inputActions {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 15px 0 0;
+}
+
+.inputActions:focus {
+    background: #09c2af;
+    
+}

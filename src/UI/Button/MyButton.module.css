@@ -1,0 +1,20 @@
+.myBtn {
+    width: 60px;
+    padding: 5px;
+    background: #10bb0a;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 0.2s;
+    border: none;
+}
+
+.myBtn:hover {
+    font-weight: 700;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+.myBtn:active {
+    background: #3fed05;
+}
+
