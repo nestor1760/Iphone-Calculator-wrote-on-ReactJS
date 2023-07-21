@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 720px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+    width: 270px;
+    height: 450px;
+}
+
+h1 {
+    text-align: right;
+    max-width: 240px;
+    overflow: hidden;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.calc-block__btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+}
+
+.btnGrey {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    background: rgb(163, 159, 159);
+    border: none;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnGrey:active {
+    background: rgb(193, 187, 187);  
+}
+
+.btnOrange {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    background: rgb(236, 186, 5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnOrange:active {
+    background: white; 
+    color: rgb(236, 186, 5); 
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    background: rgb(63, 62, 62);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background: rgb(103, 100, 100);
+}
+
+.btn:nth-child(17) {
+    width: 105px;
+    height: 50px;
+    margin: 5px 10px 5px 5px;
+    background: rgb(63, 62, 62);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.btn:nth-child(17):active {
+    background: rgb(103, 100, 100);
+}
+
+.btn:nth-child(18) {
+    margin-left: none;
+}
